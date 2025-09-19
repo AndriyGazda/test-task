@@ -1,9 +1,32 @@
-Installation & Running the Application
-Install dependencies:
-npm run install
-To run the client in development mode:
+
+
+---
+
+## 🚀 Installation & Running the Application
+
+### 1️⃣ Встановлення залежностей
+
+```bash
+npm install
+```
+
+### 2️⃣ Запуск у режимі розробки
+
+```bash
 npm run dev
-To check linting errors:
+```
+
+### 3️⃣ Перевірка на помилки ESLint
+
+```bash
 npm run lint
-To format your code, run the following command:
+```
+
+### 4️⃣ Форматування коду (Prettier)
+
+```bash
 npm run format
+```
+
+---
+
