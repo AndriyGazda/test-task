@@ -1,0 +1,66 @@
+.upcoming-concerts{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.concerts-table-wrapper {
+  margin: 0 auto;
+
+  background-color: #1a1a26;
+  border-radius: 12px;
+  overflow-x: auto;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.concerts-table {
+  min-width: 100%;
+  border-collapse: collapse;
+}
+
+.concerts-table-head tr {
+  border-bottom: 1px solid #2c2c3a;
+}
+
+.concerts-table-head h2 {
+  text-align: left;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.concerts-table-head th {
+  text-align: left;
+  padding: 15px 20px;
+  color: #a0a0b2;
+}
+
+.concerts-table-row {
+  border-bottom: 1px solid #2c2c3a;
+  background-color: #151921;
+  transition: background 0.2s ease;
+}
+
+.concerts-table-row:hover {
+  background-color: rgba(66, 66, 96, 0.23);
+}
+
+.concerts-table-cells {
+  padding: 15px 20px;
+  color: #fff;
+}
+
+.concert-table-btn-buy {
+  display: inline-block;
+  padding: 10px 20px;
+
+  transition: background-color 0.3s ease;
+
+  background-color: #e6274f;
+  border-radius: 7px;
+}
+
+.concert-table-btn-buy:hover {
+  background-color: #b81a3f;
+}
+.concert-table-btn-buy:active {
+  background-color: #8c122f;
+}

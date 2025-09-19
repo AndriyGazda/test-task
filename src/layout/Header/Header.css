@@ -1,0 +1,27 @@
+.header-container{
+    max-width: 1340px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-nav {
+    display: flex;
+    gap: 30px;
+}
+.header-nav a{
+    font-size: 18px;
+    font-weight: 500;
+}
+.header-nav a:hover{
+    color: #d5c33f;
+}
+.header-nav a:active{
+    color: #b8a815;
+}

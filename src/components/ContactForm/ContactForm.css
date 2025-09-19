@@ -1,0 +1,91 @@
+.contactForm {
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.contact-form-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  flex: 1;
+}
+
+.form-group label {
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  background-color: #0e0f13;
+  border: 1px solid #2b2d34;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 15px;
+  color: #fff;
+  outline: none;
+  transition: border 0.2s ease, background 0.2s ease;
+}
+
+.form-input input::placeholder,
+.form-textarea textarea::placeholder {
+  color: #666;
+}
+
+.form-input input:focus,
+.form-textarea textarea:focus {
+  background-color: #16171c;
+}
+
+.form-textarea textarea {
+  resize: none;
+  min-height: 150px;
+}
+
+.send-button {
+  align-self: flex-start;
+  padding: 12px 32px;
+  background-color: #e6274f;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.send-button:hover {
+  background-color: #c51e42;
+}
+
+.send-button:active {
+  background-color: #9d1635;
+  transform: scale(0.98);
+}
+
+
+.error {
+  border: 1px solid #e6274f !important;
+}
+
+.error-message {
+  color: #e6274f;
+  font-size: 13px;
+  margin-top: 4px;
+  min-height: 16px;
+}
