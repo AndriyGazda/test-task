@@ -41,7 +41,7 @@ export const ConcertsSection = () => {
               <table class="concerts-table">
                   <thead class="concerts-table-head">
                       <tr>
-                        <th><h2>Найближчі концерти</h2></th>
+                        <th colspan="4"><h2>Найближчі концерти</h2></th>
                       </tr>
                       <tr>
                           <th>Місто/Заклад</th>

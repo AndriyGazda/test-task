@@ -30,3 +30,57 @@
   z-index: -1;
 }
 
+@media (min-width: 720px) and (max-width: 1024px)  {
+  .history-label{
+    font-size: 28px;
+    padding-bottom: 18px;
+  }
+
+  .history-wrapper p {
+    font-size: 15px;
+  }
+
+  .history-wrapper {
+    gap: 16px;
+    z-index: 1;
+  }
+
+  .history-image {
+    display: none;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 720px)  {
+  .history-label{
+    font-size: 26px;
+    padding-bottom: 16px;
+  }
+
+  .history-wrapper p {
+    font-size: 14px;
+  }
+
+  .history-wrapper {
+    gap: 14px;
+    z-index: 1;
+  }
+
+  .history-image {
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .history-label{
+    gap: 12px;
+    z-index: 1;
+  }
+
+  .history-wrapper p {
+    font-size: 13px;
+  }
+
+  .history-image {
+    display: none;
+  }
+}

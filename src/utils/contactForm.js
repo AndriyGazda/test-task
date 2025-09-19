@@ -52,7 +52,20 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('contacts', JSON.stringify(stored));
 
       form.reset();
-      alert('Дані успішно відправлені!');
+
+      const popup = document.getElementById('successPopup');
+      popup.style.display = 'flex';
+
+      const closeBtn = document.getElementById('closePopup');
+      closeBtn.addEventListener('click', () => {
+        popup.style.display = 'none';
+      });
+
+      popup.addEventListener('click', e => {
+        if (e.target === popup) {
+          popup.style.display = 'none';
+        }
+      });
     }
   });
 

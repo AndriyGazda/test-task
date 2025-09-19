@@ -8,10 +8,6 @@
   background-repeat: no-repeat;
 }
 
-.hero-container {
-  /*padding: 60px 45px;*/
-}
-
 .hero-name {
   font-size: 48px;
 }
@@ -37,4 +33,37 @@
 }
 .hero-btn:active {
   background-color: #8c7a0f;
+}
+
+@media (min-width: 720px) and (max-width: 1024px)  {
+  .hero-name {
+    font-size: 38px;
+  }
+  .hero-body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 720px)  {
+  .hero-name {
+    font-size: 32px;
+  }
+  .hero-body {
+    font-size: 14px;
+  }
+  .hero-btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 460px) {
+  .hero-name {
+    font-size: 25px;
+  }
+  .hero-body {
+    font-size: 12px;
+  }
+  .hero-btn {
+    font-size: 11px;
+  }
 }

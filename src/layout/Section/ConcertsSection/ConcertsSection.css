@@ -64,3 +64,58 @@
 .concert-table-btn-buy:active {
   background-color: #8c122f;
 }
+
+@media (min-width: 720px) and (max-width: 1024px)  {
+  .upcoming-concerts{
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .concerts-table-head h2 {
+    font-size: 18px;
+  }
+  .concerts-table-cells {
+    padding: 10px 15px;
+  }
+  .concert-table-btn-buy {
+    padding: 7px 15px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 720px)  {
+  .upcoming-concerts{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .concerts-table-head h2 {
+    font-size: 18px;
+  }
+  .concerts-table-cells {
+    padding: 10px 10px;
+  }
+  .concert-table-btn-buy {
+    text-align: center;
+    padding: 5px 12px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 460px) {
+  .upcoming-concerts{
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .concerts-table-head h2 {
+    font-size: 12px;
+  }
+  .concerts-table-cells {
+    padding: 10px 15px;
+  }
+  .concerts-table-cells a {
+    display: none;
+  }
+  .concert-table-btn-buy {
+    padding: 7px 15px;
+    font-size: 12px;
+  }
+}

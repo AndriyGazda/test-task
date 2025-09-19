@@ -45,3 +45,56 @@
   color: #80828e;
   padding: 15px ;
 }
+@media (min-width: 720px) and (max-width: 1024px) {
+  .members-container{
+    gap: 30px;
+  }
+  .members-label {
+    font-size: 30px;
+  }
+  .member-photo {
+    height: 220px;
+  }
+  .member-card-name {
+    font-size: 15px;
+    padding: 12px;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 720px) {
+  .members-container{
+    gap: 25px;
+  }
+  .members-label {
+    font-size: 24px;
+  }
+  .members-grid{
+    flex-direction: column;
+    gap: 25px;
+  }
+  .member-photo {
+    height: 220px;
+  }
+  .member-card-name {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 460px) {
+  .members-container{
+    gap: 20px;
+  }
+  .members-label {
+    font-size: 20px;
+  }
+  .members-grid{
+    flex-direction: column;
+    gap: 25px;
+  }
+  .member-photo {
+    height: 190px;
+  }
+  .member-card-name {
+    font-size: 12px;
+  }
+}

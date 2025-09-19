@@ -3,7 +3,7 @@ import './Footer.css';
 export const Footer = () => {
   return `
     <footer>        
-      <div class="container">  
+      <div class="container footer-container">  
         <div class="footer-wrapper">
           <div class="footer-info">
             <p>&copy; 2024 The Rockers. Всі права захищені.</p>

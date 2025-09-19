@@ -24,3 +24,43 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+
+@media (min-width: 720px) and (max-width: 1024px)  {
+  .contact-container p {
+    font-size: 15px;
+  }
+  .contact-label {
+    font-size: 28px;
+  }
+  .contact-content-wrapper {
+    justify-content: center;
+    gap: 35px;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 720px)  {
+  .contact-container p {
+    font-size: 14px;
+  }
+  .contact-label {
+    font-size: 25px;
+  }
+  .contact-content-wrapper {
+    justify-content: center;
+    gap: 35px;
+  }
+}
+
+@media (max-width: 460px) {
+  .contact-container p {
+    font-size: 13px;
+  }
+  .contact-label {
+    font-size: 20px;
+  }
+  .contact-content-wrapper {
+    justify-content: center;
+    gap: 35px;
+  }
+}

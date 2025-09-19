@@ -2,8 +2,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
-    /*padding: 20px 0;*/
 }
 
 .footer-info {
@@ -24,4 +22,42 @@
 .footer-socials a:hover,
 .footer-info a:hover {
     color: #7575ae;
+}
+
+@media (min-width: 460px) and (max-width: 720px)  {
+    .footer-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-wrapper{
+      max-width: 500px;
+      justify-content: center;
+
+    }
+    .footer-info {
+        gap: 10px
+    }
+    .footer-info a {
+        font-weight: normal;
+    }
+    .footer-socials {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 460px) {
+    .footer-wrapper{
+        max-width: 500px;
+        justify-content: center;
+    }
+    .footer-info {
+        gap: 10px
+    }
+    .footer-info a {
+        font-weight: normal;
+    }
+    .footer-socials {
+        margin-top: 10px;
+    }
 }

@@ -26,6 +26,15 @@ export const ContactForm = () => {
         </div>               
         <button type="submit" class="send-button">Відправити</button>
       </form>
+      
+      <div id="successPopup" class="popup">
+        <div class="popup-content">
+          <span class="popup-close" id="closePopup">&times;</span>
+          <h2>Дякуємо!</h2>
+          <p>Ваші дані успішно відправлені 🎉</p>
+        </div>
+      </div>
+      
     </section>
   `;
 };
